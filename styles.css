@@ -1,0 +1,189 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 18px;
+    padding-left: 25px;
+    position: initial;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+header li{
+    position: relative;
+}
+header a{
+    text-decoration: none;
+    color: gainsboro;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: small;
+}
+header a:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color:gainsboro;
+    border-radius: 0.5em;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+
+.contenedor .texto {
+    background-color: #fff;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.contenedor .texto p {
+    font-size: 16px;
+    color: #333;
+    
+}
+
+/* Link with logo */
+.texto a {
+    color:cornflowerblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.texto a:hover {
+    text-decoration: underline;
+}
+.titulo{
+    text-align: center;
+    font-size: smaller;
+}
+@media screen and (min-width:1205px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: white;
+    }
+    
+    /* Header */
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #333;
+        color: #fff;
+    }
+    
+    header h1 {
+        font-size: 25px;
+        padding-left: 25px;
+    }
+    header ul{
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+    header li{
+        position: relative;
+    }
+    header a{
+        text-decoration: none;
+        color: gainsboro;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: small;
+    }
+    header a:hover{
+        cursor: pointer;
+        color: white;
+    }
+    
+    .contenedor {
+        display: grid;
+        grid-template-columns: repeat(3fr);
+        gap: 20px;
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color:gainsboro;
+        border-radius: 0.5em;
+        margin-top: 2.5em;
+        margin-bottom: 2.5em;
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+    
+    .contenedor .texto {
+        background-color: #fff;
+        padding: 20px;
+        margin: 25px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    
+    
+    .contenedor .texto p {
+        font-size: 16px;
+        color: #333;
+        
+    }
+    
+    /* Link with logo */
+    .texto a {
+        color:cornflowerblue;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .texto a:hover {
+        text-decoration: underline;
+    }
+    .titulo{
+        text-align: center;
+        font-size: smaller;
+    }
+}
+
